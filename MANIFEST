@@ -24,7 +24,6 @@ t/apps/Test-App/lib/Test/App/Model/DBIC.pm
 t/apps/Test-App/lib/Test/App/Schema/DB.pm
 t/apps/Test-App/lib/Test/App/Schema/DB/Artist.pm
 t/apps/Test-App/lib/Test/App/View/TT.pm
-t/apps/Test-App/root/db
 t/apps/Test-App/root/templates/index.tt
 t/apps/Test-App/script/test_app_create.pl
 t/apps/Test-App/script/test_app_server.pl
