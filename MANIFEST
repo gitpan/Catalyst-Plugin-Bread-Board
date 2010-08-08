@@ -19,6 +19,7 @@ t/020_container_to_config.t
 t/100_catalyst_app.t
 t/apps/Test-App/lib/Test/App.pm
 t/apps/Test-App/lib/Test/App/Container.pm
+t/apps/Test-App/lib/Test/App/Controller/Foo.pm
 t/apps/Test-App/lib/Test/App/Controller/Root.pm
 t/apps/Test-App/lib/Test/App/Model/DBIC.pm
 t/apps/Test-App/lib/Test/App/Schema/DB.pm

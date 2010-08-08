@@ -3,7 +3,7 @@ use Moose;
 use Bread::Board;
 use MooseX::Types::Path::Class;
 
-our $VERSION   = '0.02';
+our $VERSION   = '0.03';
 our $AUTHORITY = 'cpan:STEVAN';
 
 extends 'Bread::Board::Container';
@@ -38,7 +38,7 @@ sub as_catalyst_config {
         # this is no doubt wrong, but
         # it will suffice for now
         # - SL
-        next unless $container_name =~ /^Model|View|Plugin$/;
+        next unless $container_name =~ /^Model|View|Plugin|Controller$/;
 
         my $container = $self->get_sub_container( $container_name );
 
